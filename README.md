@@ -7,6 +7,7 @@ Also, try the short video demo [here](https://www.youtube.com/watch?v=iOqxXcQReJ
 ## Installation  
 You need to have R (> 3.0.0) installed on your system. Then, install the 'devtools' package. Then, you can install `pophelper` from `github` using the `devtools` package.
 
+__New version__  
 The new version v1.1.0 is on trial now as a new branch. It might have new bugs and issues, and there is also backward incompatibility with some functions. If you have existing scripts that do not work with the new version v1.1.0, you need to update your scripts or stick to the older version. You can always go back to older version by just reinstalling. The new version is just a new branch now on GitHub. It will be merged to master perhaps later on.
 
 Check out the page for the new version [v1.1.0](https://github.com/royfrancis/pophelper/tree/v110).
@@ -16,7 +17,7 @@ install.packages('devtools',dep=T)
 require(devtools)
 install_github('pophelper', 'royfrancis')
 
-for new version v1.1.0, use
+#for new version v1.1.0, use
 install_github('royfrancis/pophelper',ref="v110")
 
 #load library
